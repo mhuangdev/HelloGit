@@ -6,9 +6,14 @@ public class HelloGit {
 		// TODO Auto-generated method stub
 System.out.println("Initial Hello GIT");
 helloByName("module1");
+
 	}
 
 	 public static void helloByName(String name) {
 		 System.out.println("Hello there: " + name);
+	 }
+	 
+	 public static void helloById(String id) {
+		 System.out.println("hello id = " + id);
 	 }
 }
