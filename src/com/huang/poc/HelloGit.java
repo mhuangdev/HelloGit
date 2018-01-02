@@ -7,4 +7,7 @@ public class HelloGit {
 System.out.println("Initial Hello GIT");
 	}
 
+	 public static void helloByName(String name) {
+		 System.out.println("Hello there: " + name);
+	 }
 }
